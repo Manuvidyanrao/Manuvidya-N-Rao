@@ -1,11 +1,11 @@
 // Program1.java
 import java.util.Scanner;
 
-public class Problem1 {
+public class Program1 {
     double a, b;
     String operation;
 
-    public Problem1(double a, double b, String operation) {
+    public Program1(double a, double b, String operation) {
         this.a = a;
         this.b = b;
         this.operation = operation;
@@ -43,7 +43,7 @@ public class Problem1 {
         System.out.print("Enter operation (add, subtract, multiply, divide): ");
         String op = sc.nextLine();
 
-        Problem1 calc = new Problem1(a, b, op);
+        Program1 calc = new Program1(a, b, op);
         calc.calculate();
     }
 }
